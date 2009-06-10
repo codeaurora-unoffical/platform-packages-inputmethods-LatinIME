@@ -32,6 +32,7 @@ import android.os.Debug;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
+import android.os.SystemProperties;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.text.AutoText;
@@ -59,6 +60,9 @@ import java.util.List;
  */
 public class LatinIME extends InputMethodService 
         implements KeyboardView.OnKeyboardActionListener {
+
+    private static final String TAG = "LatinIME";
+
     static final boolean DEBUG = false;
     static final boolean TRACE = false;
     
@@ -144,7 +148,9 @@ public class LatinIME extends InputMethodService
 
     private String mWordSeparators;
     private String mSentenceSeparators;
-    
+
+    private boolean debugPrint = false;
+
     Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -183,6 +189,9 @@ public class LatinIME extends InputMethodService
         // register to receive ringer mode changes for silent mode
         IntentFilter filter = new IntentFilter(AudioManager.RINGER_MODE_CHANGED_ACTION);
         registerReceiver(mReceiver, filter);
+
+        if (SystemProperties.getInt("debug.ui", 0) == 1)
+            debugPrint = true;
     }
     
     private void initSuggest(String locale) {
@@ -352,6 +361,10 @@ public class LatinIME extends InputMethodService
         mPredictionOn = mPredictionOn && mCorrectionMode > 0;
         checkTutorial(attribute.privateImeOptions);
         if (TRACE) Debug.startMethodTracing("/data/trace/latinime");
+
+        // QuIC Performance Profiling Log
+        if(debugPrint)
+            Log.d(TAG, "Soft keypad is drawn");
     }
 
     @Override
