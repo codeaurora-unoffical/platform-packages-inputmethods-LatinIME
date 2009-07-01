@@ -69,7 +69,7 @@
     <string name="tip_add_to_dictionary">"Prima e mantenha premida a palavra mais à esquerda para a adicionar ao dicionário"</string>
     <string name="touch_to_continue">"Toque nesta sugestão para continuar »"</string>
     <string name="touch_to_finish">"Toque aqui para fechar esta sugestão e começar a escrever!"</string>
-    <string name="tip_to_open_keyboard"><b>"O teclado abre-se quando tocar num campo de texto"</b></string>
+    <string name="tip_to_open_keyboard"><b>"O teclado abre quando tocar num campo de texto"</b></string>
     <string name="tip_to_view_accents"><b>"Toque e mantenha premida uma tecla para ver os acentos"\n"(ø, ö, ô, ó, etc.)"</b></string>
     <string name="tip_to_open_symbols"><b>"Mude para números e símbolos tocando nesta tecla"</b></string>
     <string name="tip_to_close_symbols"><b>"Regresse às letras tocando novamente nesta tecla"</b></string>

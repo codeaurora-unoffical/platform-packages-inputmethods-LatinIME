@@ -37,7 +37,7 @@
     <!-- no translation found for auto_punctuate_summary (6589441565817502132) -->
     <skip />
     <string name="quick_fixes">"빠른 수정"</string>
-    <string name="quick_fixes_summary">"일반적인 오타를 수정합니다."</string>
+    <string name="quick_fixes_summary">"자주 발생하는 오타를 수정합니다."</string>
     <string name="show_suggestions">"추천 단어 표시"</string>
     <string name="show_suggestions_summary">"글자를 입력하는 동안 추천 단어를 표시합니다."</string>
     <string name="auto_complete">"자동 완성"</string>
@@ -74,7 +74,7 @@
     <string name="tip_to_open_symbols"><b>"이 키를 터치하면 숫자 및 기호 자판으로 변경됩니다."</b></string>
     <string name="tip_to_close_symbols"><b>"이 키를 다시 터치하면 키보드가 표시됩니다."</b></string>
     <string name="tip_to_launch_settings"><b>"자동 완성과 같은 키보드 설정을 변경하려면 이 키를 길게 누르세요."</b></string>
-    <string name="tip_to_start_typing"><b>"사용해 보세요."</b></string>
+    <string name="tip_to_start_typing"><b>"이제 직접 사용해 보세요!"</b></string>
     <string name="label_go_key">"이동"</string>
     <string name="label_next_key">"다음"</string>
     <string name="label_done_key">"완료"</string>
