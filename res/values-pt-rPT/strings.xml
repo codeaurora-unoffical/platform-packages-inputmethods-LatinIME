@@ -17,7 +17,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="english_ime_name">"Teclado do Android"</string>
     <string name="english_ime_settings">"Definições de teclado do Android"</string>
-    <string name="vibrate_on_keypress">"Vibrar quando se prime as teclas"</string>
+    <string name="vibrate_on_keypress">"Vibrar ao primir as teclas"</string>
     <string name="sound_on_keypress">"Som ao premir as teclas"</string>
     <string name="hit_correction">"Corrigir erros de escrita"</string>
     <string name="hit_correction_summary">"Activar a correcção de erros de entrada"</string>
@@ -31,7 +31,7 @@
     <string name="auto_complete_dialog_title">"Conclusão automática"</string>
     <string name="prediction_landscape">"Aumentar o tamanho do campo de texto"</string>
     <string name="prediction_landscape_summary">"Ocultar sugestões de palavras na vista horizontal"</string>
-    <string name="auto_cap">"Uso automático de maiúsculas"</string>
+    <string name="auto_cap">"Maiúsculas automáticas"</string>
     <string name="auto_cap_summary">"Colocar inicial maiúscula no início de uma frase"</string>
     <string name="auto_punctuate">"Pontuação automática"</string>
     <!-- no translation found for auto_punctuate_summary (6589441565817502132) -->
@@ -73,7 +73,7 @@
     <string name="tip_to_view_accents"><b>"Toque e mantenha premida uma tecla para ver os acentos"\n"(ø, ö, ô, ó, etc.)"</b></string>
     <string name="tip_to_open_symbols"><b>"Mude para números e símbolos tocando nesta tecla"</b></string>
     <string name="tip_to_close_symbols"><b>"Regresse às letras tocando novamente nesta tecla"</b></string>
-    <string name="tip_to_launch_settings"><b>"Toque e mantenha premida esta tecla para alterar definições do teclado, tais como a conclusão automática"</b></string>
+    <string name="tip_to_launch_settings"><b>"Toque e mantenha premida esta tecla para alterar definições do teclado, como a conclusão automática."</b></string>
     <string name="tip_to_start_typing"><b>"Experimente!"</b></string>
     <string name="label_go_key">"Ir"</string>
     <string name="label_next_key">"Seguinte"</string>
