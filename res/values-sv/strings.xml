@@ -70,7 +70,7 @@
     <string name="touch_to_continue">"Tryck på tipset för att fortsätta »"</string>
     <string name="touch_to_finish">"Trycka här om du vill stänga tipset och börja skriva!"</string>
     <string name="tip_to_open_keyboard"><b>"Tangentbordet öppnas när du trycker på ett textfält"</b></string>
-    <string name="tip_to_view_accents"><b>"Tryck och håll nere en tangent om du vill visa accenter"\n"(ø, ö, ô, ó och så vidare)"</b></string>
+    <string name="tip_to_view_accents"><b>"Tryck och håll ned en tangent om du vill visa accenter"\n"(ø, ö, ô, ó och så vidare)"</b></string>
     <string name="tip_to_open_symbols"><b>"Växla till siffror och symboler med den här tangenten"</b></string>
     <string name="tip_to_close_symbols"><b>"Återgå till bokstäver genom att trycka på tangenten en gång till"</b></string>
     <string name="tip_to_launch_settings"><b>"Tryck och håll ned tangenten om du vill ändra inställningarna för tangentbordet, till exempel Komplettera automatiskt"</b></string>

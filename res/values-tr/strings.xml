@@ -41,7 +41,7 @@
     <string name="show_suggestions">"Önerileri göster"</string>
     <string name="show_suggestions_summary">"Yazarken önerilen kelimeleri görüntüle"</string>
     <string name="auto_complete">"Otomatik tamamlama"</string>
-    <string name="auto_complete_summary">"Boşluk tuşu ve noktalama vurgulanmış kelimeyi otomatik olarak ekler"</string>
+    <string name="auto_complete_summary">"Boşluk tuşu ve noktalama vurgulanan kelimeyi otomatik ekler"</string>
   <string-array name="prediction_modes">
     <item>"Yok"</item>
     <item>"Temel"</item>
@@ -56,9 +56,9 @@
     <string name="added_word">"<xliff:g id="WORD">%s</xliff:g> : Kaydedildi"</string>
     <string name="alternates_for_a">"àáâãäåæ"</string>
     <string name="alternates_for_e">"èéêë"</string>
-    <string name="alternates_for_i">"ìíîï"</string>
-    <string name="alternates_for_o">"òóôõöœø"</string>
-    <string name="alternates_for_u">"ùúûü"</string>
+    <string name="alternates_for_i">"ıìíîï"</string>
+    <string name="alternates_for_o">"öòóôõœø"</string>
+    <string name="alternates_for_u">"üùúû"</string>
     <string name="alternates_for_s">"§ß"</string>
     <string name="alternates_for_n">"ñ"</string>
     <string name="alternates_for_c">"ç"</string>

@@ -70,7 +70,7 @@
     <string name="touch_to_continue">"Berør dette tip for at fortsætte »"</string>
     <string name="touch_to_finish">"Berør her for at lukke dette tip og begynde at indtaste!"</string>
     <string name="tip_to_open_keyboard"><b>"Tastaturet åbner når som helst, du berører et tekstfelt"</b></string>
-    <string name="tip_to_view_accents"><b>"Berør og hold en tast nede for a vise accenter"\n"(ø, ö, ô, ó osv.)"</b></string>
+    <string name="tip_to_view_accents"><b>"Berør og hold en tast nede for at vise accenter"\n"(ø, ö, ô, ó osv.)"</b></string>
     <string name="tip_to_open_symbols"><b>"Skift til tal og symboler ved at røre denne tast"</b></string>
     <string name="tip_to_close_symbols"><b>"Gå tilbage til bogstaver ved at berøre denne tast igen"</b></string>
     <string name="tip_to_launch_settings"><b>"Berør og hold denne tast nede for at ændre tastaturindstillingerne, som f.eks. automatisk udfyldelse"</b></string>

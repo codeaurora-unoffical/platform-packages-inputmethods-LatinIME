@@ -31,7 +31,7 @@
     <string name="auto_complete_dialog_title">"Автоматическое завершение"</string>
     <string name="prediction_landscape">"Увеличить размер текстового поля"</string>
     <string name="prediction_landscape_summary">"Скрывать предложение слов в горизонтальной ориентации"</string>
-    <string name="auto_cap">"Автоматический перевод в верхний регистр"</string>
+    <string name="auto_cap">"Заглавные автоматически"</string>
     <string name="auto_cap_summary">"Делать заглавной первую букву предложения"</string>
     <string name="auto_punctuate">"Автоматическая пунктуация"</string>
     <!-- no translation found for auto_punctuate_summary (6589441565817502132) -->
@@ -41,7 +41,7 @@
     <string name="show_suggestions">"Предлагать варианты"</string>
     <string name="show_suggestions_summary">"Предлагать варианты во время ввода"</string>
     <string name="auto_complete">"Автозавершение"</string>
-    <string name="auto_complete_summary">"При вводе пробела или знака препинания выделенное слово вставляется автоматически"</string>
+    <string name="auto_complete_summary">"Пробел или знак препинания автоматически вставляют выделенное слово"</string>
   <string-array name="prediction_modes">
     <item>"Нет"</item>
     <item>"Основной"</item>

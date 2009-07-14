@@ -41,7 +41,7 @@
     <string name="show_suggestions">"显示建议"</string>
     <string name="show_suggestions_summary">"输入时显示建议的字词"</string>
     <string name="auto_complete">"自动输入"</string>
-    <string name="auto_complete_summary">"空格和标点符号会自动插入突出显示的字词"</string>
+    <string name="auto_complete_summary">"按空格和标点会自动插入突出显示的字词"</string>
   <string-array name="prediction_modes">
     <item>"无"</item>
     <item>"基本模式"</item>
@@ -68,11 +68,11 @@
     <string name="tip_access_symbols">"访问数字和符号"</string>
     <string name="tip_add_to_dictionary">"按住最左侧的字词可以将其添加到字典中"</string>
     <string name="touch_to_continue">"轻触此提示继续 »"</string>
-    <string name="touch_to_finish">"轻触此处便可关闭该提示并开始输入内容！"</string>
-    <string name="tip_to_open_keyboard"><b>"轻触文本字段便可以打开键盘"</b></string>
+    <string name="touch_to_finish">"轻触此处可关闭该提示，然后便可开始输入内容！"</string>
+    <string name="tip_to_open_keyboard"><b>"轻触文本字段即可打开键盘"</b></string>
     <string name="tip_to_view_accents"><b>"轻触并按住某个键可以查看重音符号"\n"（?, ?, ?, ó 等）"</b></string>
-    <string name="tip_to_open_symbols"><b>"轻触该键即可切换到数字和符号输入模式"</b></string>
-    <string name="tip_to_close_symbols"><b>"再次轻触该键即可返回字母输入模式"</b></string>
+    <string name="tip_to_open_symbols"><b>"轻触该键可切换到数字和符号输入模式"</b></string>
+    <string name="tip_to_close_symbols"><b>"再次轻触该键可返回字母输入模式"</b></string>
     <string name="tip_to_launch_settings"><b>"轻触并按住该键可以更改键盘设置，例如自动输入"</b></string>
     <string name="tip_to_start_typing"><b>"试试吧！"</b></string>
     <string name="label_go_key">"开始"</string>
