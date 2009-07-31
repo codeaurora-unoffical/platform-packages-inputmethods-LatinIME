@@ -31,7 +31,7 @@
     <string name="auto_complete_dialog_title">"Otomatik tamamlama"</string>
     <string name="prediction_landscape">"Metin alanı boyutunu artır"</string>
     <string name="prediction_landscape_summary">"Yatay görünümde kelime önerilerini gizle"</string>
-    <string name="auto_cap">"Otomatik olarak büyük harf yapma"</string>
+    <string name="auto_cap">"Ot. olarak büyük harf yap"</string>
     <string name="auto_cap_summary">"Cümlenin baş harfini büyük yap"</string>
     <string name="auto_punctuate">"Otomatik noktalama"</string>
     <!-- no translation found for auto_punctuate_summary (6589441565817502132) -->
@@ -40,7 +40,7 @@
     <string name="quick_fixes_summary">"Yaygın olarak yapılan yazım hatalarını düzeltir"</string>
     <string name="show_suggestions">"Önerileri göster"</string>
     <string name="show_suggestions_summary">"Yazarken önerilen kelimeleri görüntüle"</string>
-    <string name="auto_complete">"Otomatik tamamlama"</string>
+    <string name="auto_complete">"Otomatik tamamla"</string>
     <string name="auto_complete_summary">"Boşluk tuşu ve noktalama vurgulanan kelimeyi otomatik ekler"</string>
   <string-array name="prediction_modes">
     <item>"Yok"</item>
@@ -59,7 +59,7 @@
     <string name="alternates_for_i">"ıìíîï"</string>
     <string name="alternates_for_o">"öòóôõœø"</string>
     <string name="alternates_for_u">"üùúû"</string>
-    <string name="alternates_for_s">"§ß"</string>
+    <string name="alternates_for_s">"ş§ß"</string>
     <string name="alternates_for_n">"ñ"</string>
     <string name="alternates_for_c">"ç"</string>
     <string name="alternates_for_y">"ýÿ"</string>

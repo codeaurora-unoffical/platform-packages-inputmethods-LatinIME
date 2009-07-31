@@ -41,7 +41,7 @@
     <string name="show_suggestions">"Предлагать варианты"</string>
     <string name="show_suggestions_summary">"Предлагать варианты во время ввода"</string>
     <string name="auto_complete">"Автозавершение"</string>
-    <string name="auto_complete_summary">"Пробел или знак препинания автоматически вставляют выделенное слово"</string>
+    <string name="auto_complete_summary">"Пробел или знак препинания вставляют выделенное слово"</string>
   <string-array name="prediction_modes">
     <item>"Нет"</item>
     <item>"Основной"</item>

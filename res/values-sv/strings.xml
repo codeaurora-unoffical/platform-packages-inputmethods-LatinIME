@@ -68,7 +68,7 @@
     <string name="tip_access_symbols">"För siffror och symboler"</string>
     <string name="tip_add_to_dictionary">"Tryck och håll ned ordet längst till vänster om du vill lägga till det i ordlistan"</string>
     <string name="touch_to_continue">"Tryck på tipset för att fortsätta »"</string>
-    <string name="touch_to_finish">"Trycka här om du vill stänga tipset och börja skriva!"</string>
+    <string name="touch_to_finish">"Tryck här om du vill stänga tipset och börja skriva!"</string>
     <string name="tip_to_open_keyboard"><b>"Tangentbordet öppnas när du trycker på ett textfält"</b></string>
     <string name="tip_to_view_accents"><b>"Tryck och håll ned en tangent om du vill visa accenter"\n"(ø, ö, ô, ó och så vidare)"</b></string>
     <string name="tip_to_open_symbols"><b>"Växla till siffror och symboler med den här tangenten"</b></string>

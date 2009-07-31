@@ -41,7 +41,7 @@
     <string name="show_suggestions">"Εμφάνιση υποδείξεων"</string>
     <string name="show_suggestions_summary">"Προβολή προτεινόμενων λέξεων κατά την πληκτρολόγηση"</string>
     <string name="auto_complete">"Αυτόματη συμπλήρωση"</string>
-    <string name="auto_complete_summary">"Το πλήκτρο διαστήματος και του τονισμού εισάγουν αυτόματα την επιλεγμένη λέξη"</string>
+    <string name="auto_complete_summary">"Τα πλήκ.διαστήμ.και τονισμού εισάγ.αυτόμ.την επιλ.λέξη"</string>
   <string-array name="prediction_modes">
     <item>"Καμία"</item>
     <item>"Βασική"</item>
@@ -70,14 +70,14 @@
     <string name="touch_to_continue">"Αγγίξτε αυτή τη συμβουλή για να συνεχίσετε »"</string>
     <string name="touch_to_finish">"Αγγίξτε εδώ για να κλείσετε τη συμβουλή και να ξεκινήσετε την πληκτρολόγηση!"</string>
     <string name="tip_to_open_keyboard"><b>"Το πληκτρολόγιο ανοίγει κάθε φορά που αγγίζετε ένα πεδίο κειμένου"</b></string>
-    <string name="tip_to_view_accents"><b>"Αγγίξτε και κρατήστε κάποιο πλήκτρο για να προβάλλετε τους τονισμένους χαρακτήρες"\n"(ø, ö, ô, ó κ.τ.λ.)"</b></string>
+    <string name="tip_to_view_accents"><b>"Αγγίξτε και κρατήστε κάποιο πλήκτρο για να προβάλετε τους τονισμένους χαρακτήρες"\n"(ø, ö, ô, ó κ.τ.λ.)"</b></string>
     <string name="tip_to_open_symbols"><b>"Αλλαγή σε αριθμούς και σύμβολα με το πάτημα αυτού του πλήκτρου"</b></string>
     <string name="tip_to_close_symbols"><b>"Επιστρέψτε στα γράμματα αγγίζοντας ξανά αυτό το πλήκτρο"</b></string>
     <string name="tip_to_launch_settings"><b>"Αγγίξτε &amp; κρατήστε πατημένο αυτό το πλήκτρο για να αλλάξετε τις ρυθμίσεις πληκτρολογίου, όπως η αυτόματη συμπλήρωση"</b></string>
     <string name="tip_to_start_typing"><b>"Δοκιμάστε το!"</b></string>
     <string name="label_go_key">"Μετάβαση"</string>
     <string name="label_next_key">"Επόμενο"</string>
-    <string name="label_done_key">"Ολοκληρώθηκε"</string>
+    <string name="label_done_key">"Τέλος"</string>
     <string name="label_send_key">"Αποστολή"</string>
     <string name="label_symbol_key">"?123"</string>
     <string name="label_phone_key">"123"</string>

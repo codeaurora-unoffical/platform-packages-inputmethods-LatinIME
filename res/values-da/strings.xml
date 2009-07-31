@@ -31,7 +31,7 @@
     <string name="auto_complete_dialog_title">"Automatisk udfyldelse"</string>
     <string name="prediction_landscape">"Øg størrelsen på tekstfeltet"</string>
     <string name="prediction_landscape_summary">"Skjul ordforslag i landskabsvisning"</string>
-    <string name="auto_cap">"Skriv automatisk med stort"</string>
+    <string name="auto_cap">"Skriv aut. med stort"</string>
     <string name="auto_cap_summary">"Skriv første bogstav i en sætning med stort"</string>
     <string name="auto_punctuate">"Foretag automatisk tegnsætning"</string>
     <!-- no translation found for auto_punctuate_summary (6589441565817502132) -->
