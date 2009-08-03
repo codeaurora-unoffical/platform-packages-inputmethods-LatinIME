@@ -77,7 +77,7 @@
     <string name="tip_to_start_typing"><b>"Experimente!"</b></string>
     <string name="label_go_key">"Ir"</string>
     <string name="label_next_key">"Seguinte"</string>
-    <string name="label_done_key">"Concluído"</string>
+    <string name="label_done_key">"Feito"</string>
     <string name="label_send_key">"Enviar"</string>
     <string name="label_symbol_key">"?123"</string>
     <string name="label_phone_key">"123"</string>
