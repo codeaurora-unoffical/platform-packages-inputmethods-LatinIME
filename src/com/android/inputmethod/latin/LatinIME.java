@@ -627,7 +627,8 @@ public class LatinIME extends InputMethodService
             }
         }
         if (mInputView.isShifted()) {
-            primaryCode = Character.toUpperCase(primaryCode);
+            // TODO: This doesn't work with ß, need to fix it in the next release.
+            primaryCode = new String(keyCodes, 0, 1).toUpperCase().charAt(0);
         }
         if (mPredicting) {
             if (mInputView.isShifted() && mComposing.length() == 0) {
@@ -800,7 +801,7 @@ public class LatinIME extends InputMethodService
             suggestion = suggestion.toString().toUpperCase();
         } else if (preferCapitalization() 
                 || (mKeyboardSwitcher.isAlphabetMode() && mInputView.isShifted())) {
-            suggestion = Character.toUpperCase(suggestion.charAt(0)) 
+            suggestion = suggestion.toString().toUpperCase().charAt(0)
                     + suggestion.subSequence(1, suggestion.length()).toString();
         }
         InputConnection ic = getCurrentInputConnection();

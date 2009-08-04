@@ -56,13 +56,14 @@
     <string name="added_word">"<xliff:g id="WORD">%s</xliff:g> : Kaydedildi"</string>
     <string name="alternates_for_a">"àáâãäåæ"</string>
     <string name="alternates_for_e">"èéêë"</string>
-    <string name="alternates_for_i">"ıìíîï"</string>
+    <string name="alternates_for_i">"iìíîï"</string>
     <string name="alternates_for_o">"öòóôõœø"</string>
     <string name="alternates_for_u">"üùúû"</string>
     <string name="alternates_for_s">"ş§ß"</string>
     <string name="alternates_for_n">"ñ"</string>
     <string name="alternates_for_c">"ç"</string>
     <string name="alternates_for_y">"ýÿ"</string>
+    <string name="key_i">"ı"</string>
     <string name="tip_long_press">"Vurguları görmek için bir tuşu basılı tutun (ø, ö, v.b.)"</string>
     <string name="tip_dismiss">"Klavyeyi herhangi bir anda kapatmak için geri tuşuna ↶ basın"</string>
     <string name="tip_access_symbols">"Sayılara ve simgelere erişin"</string>
