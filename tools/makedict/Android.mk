@@ -19,7 +19,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := $(call all-java-files-under,src)
 LOCAL_SRC_FILES += $(call all-java-files-under,tests)
 LOCAL_JAR_MANIFEST := etc/manifest.txt
-LOCAL_MODULE_TAGS := eng
+LOCAL_MODULE_TAGS := debug
 LOCAL_MODULE := makedict
 LOCAL_JAVA_LIBRARIES := junit
 
