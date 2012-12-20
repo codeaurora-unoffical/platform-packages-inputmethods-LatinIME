@@ -156,6 +156,7 @@ public class MoreSuggestionsView extends KeyboardView implements MoreKeysPanel {
         window.setWidth(container.getMeasuredWidth());
         window.setHeight(container.getMeasuredHeight());
         parentView.getLocationInWindow(mCoordinates);
+        window.setFocusable(false);
         window.showAtLocation(parentView, Gravity.NO_GRAVITY,
                 x + mCoordinates[0], y + mCoordinates[1]);
 
