@@ -569,6 +569,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         if (mDisplayOrientation != conf.orientation) {
             mDisplayOrientation = conf.orientation;
             mHandler.startOrientationChanging();
+            resetComposingState(true);
             final InputConnection ic = getCurrentInputConnection();
             commitTyped(ic, LastComposedWord.NOT_A_SEPARATOR);
             if (ic != null) ic.finishComposingText(); // For voice input
