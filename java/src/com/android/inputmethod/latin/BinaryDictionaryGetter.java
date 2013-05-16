@@ -186,8 +186,17 @@ final class BinaryDictionaryGetter {
                     + fallbackResId);
             return null;
         }
-        return AssetFileAddress.makeFromFileNameAndOffset(
+        AssetFileAddress ret =  AssetFileAddress.makeFromFileNameAndOffset(
                 context.getApplicationInfo().sourceDir, afd.getStartOffset(), afd.getLength());
+		try{
+			if (null != afd){
+				afd.close();
+			}
+
+		}catch(Exception exp){
+			//do nothing
+		}
+		return ret;
     }
 
     private static final class DictPackSettings {
