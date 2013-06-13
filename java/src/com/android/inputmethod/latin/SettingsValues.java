@@ -321,26 +321,26 @@ public class SettingsValues {
     public static float getCurrentKeypressSoundVolume(final SharedPreferences sp,
                 final Resources res) {
         // TODO: use mVibrationDurationSettingsRawValue instead of reading it again here
-        final float volume = sp.getFloat(Settings.PREF_KEYPRESS_SOUND_VOLUME, -1.0f);
+        final float volume = sp.getFloat(Settings.PREF_KEYPRESS_SOUND_VOLUME, 0);
         if (volume >= 0) {
             return volume;
         }
 
         return Float.parseFloat(
-                Utils.getDeviceOverrideValue(res, R.array.keypress_volumes, "-1.0f"));
+                Utils.getDeviceOverrideValue(res, R.array.keypress_volumes, "0"));
     }
 
     // Likewise
     public static int getCurrentVibrationDuration(final SharedPreferences sp,
                 final Resources res) {
         // TODO: use mKeypressVibrationDuration instead of reading it again here
-        final int ms = sp.getInt(Settings.PREF_VIBRATION_DURATION_SETTINGS, -1);
+        final int ms = sp.getInt(Settings.PREF_VIBRATION_DURATION_SETTINGS, 0);
         if (ms >= 0) {
             return ms;
         }
 
         return Integer.parseInt(
-                Utils.getDeviceOverrideValue(res, R.array.keypress_vibration_durations, "-1"));
+                Utils.getDeviceOverrideValue(res, R.array.keypress_vibration_durations, "0"));
     }
 
     // Likewise
