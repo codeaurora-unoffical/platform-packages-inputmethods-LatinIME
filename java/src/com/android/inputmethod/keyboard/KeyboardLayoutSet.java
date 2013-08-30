@@ -22,6 +22,7 @@ import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE_CO
 import static com.android.inputmethod.latin.Constants.ImeOption.NO_SETTINGS_KEY;
 import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
 
+import android.app.ActivityManager;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -269,7 +270,11 @@ public class KeyboardLayoutSet {
             final boolean noMicrophone = InputAttributes.inPrivateImeOptions(
                     mPackageName, NO_MICROPHONE, mEditorInfo)
                     || deprecatedNoMicrophone;
-            mParams.mVoiceKeyEnabled = voiceKeyEnabled && !noMicrophone;
+            if (ActivityManager.isUserAMonkey()){
+                mParams.mVoiceKeyEnabled = false;
+            }else{
+                mParams.mVoiceKeyEnabled = voiceKeyEnabled && !noMicrophone;
+            }
             mParams.mVoiceKeyOnMain = voiceKeyOnMain;
             mParams.mLanguageSwitchKeyEnabled = languageSwitchKeyEnabled;
             return this;
