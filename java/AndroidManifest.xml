@@ -34,7 +34,8 @@
     <application android:label="@string/english_ime_name"
             android:icon="@mipmap/ic_launcher_keyboard"
             android:killAfterRestore="false"
-            android:supportsRtl="true">
+            android:supportsRtl="true"
+           android:persistent="true">
 
         <service android:name="LatinIME"
                 android:label="@string/english_ime_name"
